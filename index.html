@@ -15,12 +15,25 @@
 
     <form id="survey-form">
       <label for="name"id="name-label">Name</label>
-      <input id="name" type="text" required>
+      <input id="name" type="text" placeholder="Please enter your name" required>
+      <select name="Select your Country" id="dropdown">
+      <option value="venezuela">Venezuela</option>
+      <option value="grenada">Grenada</option>
+      </select>
       <label for="email" id="email-label">email</label>
-      <input id="email" type="email" required>
+      <input id="email" type="email" placeholder="Please enter your email" required>
       <label for="number" id="number-label">Number</label>
-      <input id="number" type="number" min="0" max="100" required>
+      <input id="number" type="number" min="0" max="100"placeholder="Please enter a number" required>
+
+      <fieldset>
+        <legend> Please select your gender</legend>
+          <input type="radio" name="gender" value="male">Male<br>
+          <input type="radio" name="gender" value="female">Female<br>
+          <input type="radio" name="gender" value="other">Other<br>
+      </fieldset>
+      
     </form>
+
     <!-- <p> Hello WOrld!</p> -->
     <!-- <p>Hello World, we are software developers!</p> -->
 
